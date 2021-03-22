@@ -73,10 +73,10 @@ namespace FileFormat
             fp.ProcessFile("hello.html");
 
             fp.fileProcessor = new TextProcess();
-            fp.ProcessFile(@"hello.txt");
+            fp.ProcessFile("hello.txt");
 
             fp.fileProcessor = new JsonProcess();
-            fp.ProcessFile(@"hello.json");
+            fp.ProcessFile("hello.json");
 
 
             Console.ReadLine();
